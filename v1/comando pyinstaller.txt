@@ -1,0 +1,1 @@
+pyinstaller --clean -i icon.ico -c -F --version-file version.txt --hidden-import scipy._lib.messagestream  --paths C:\Python27\Lib\site-packages\scipy\extra-dll stabpy.py
